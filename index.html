@@ -45,9 +45,6 @@
             <div class="animate__animated animate__fadeIn animate__slower absolute top-20 left-20 w-32 h-32 bg-white opacity-5 rounded-full floating"></div>
             <div class="animate__animated animate__fadeIn animate__slower animate__delay-1s absolute top-40 right-40 w-48 h-48 bg-white opacity-5 rounded-full floating" style="animation-delay: -1.5s"></div>
         </div>
-        <form action="https://app.getresponse.com/add_subscriber.html" method="POST" class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-lg">
-            <input type="hidden" name="campaign_token" value="jdFRO">
-            <div class="mb-4">
 
         <div class="container mx-auto px-4 relative z-10">
             <div class="text-center max-w-4xl mx-auto">
@@ -78,7 +75,9 @@
                 Inizia il Tuo Percorso Verso la Fluency
             </h2>
             
-            <form class="bg-white p-8 rounded-xl shadow-lg animate__animated animate__fadeInUp">
+            <form class="bg-white p-8 rounded-xl shadow-lg animate__animated animate__fadeInUp" action="https://app.getresponse.com/add_subscriber.html" method="POST">
+            <input type="hidden" name="campaign_token" value="jdFRO">
+            <div class="mb-4">
                 <div class="mb-6">
                     <label class="block text-gray-700 text-sm font-bold mb-2" for="name">
                         Nome Completo
